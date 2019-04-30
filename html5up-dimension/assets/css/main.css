@@ -1267,7 +1267,7 @@ input, select, textarea {
 				display: none;
 			}
 
-		#header .logo {
+		#header .logo, #header img {
 			width: 5.5rem;
 			height: 5.5rem;
 			line-height: 5.5rem;
@@ -1275,7 +1275,8 @@ input, select, textarea {
 			border-radius: 25%;
 		}
 
-			#header .logo .icon:before {
+		
+			#header .logo img:before {
 				font-size: 2rem;
 			}
 
@@ -1417,13 +1418,13 @@ input, select, textarea {
 					height: calc(2rem + 1px);
 				}
 
-			#header .logo {
+			#header .logo, #header img {
 				width: 4.75rem;
 				height: 4.75rem;
 				line-height: 4.75rem;
 			}
 
-				#header .logo .icon:before {
+				#header .logo img:before {
 					font-size: 1.75rem;
 				}
 
